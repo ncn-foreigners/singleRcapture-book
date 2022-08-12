@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "singleRcapture-book"
-  author: "Jane Doe"
+  title: "Single-source capture-recapture models using R"
+  author: "Maciej Beręsewicz, Piotr Chlebicki"
   date: "8/12/2022"
   chapters:
     - index.qmd
@@ -19,5 +19,5 @@ format:
   pdf:
     documentclass: scrreprt
 
-editor: visual
+editor: source
 
