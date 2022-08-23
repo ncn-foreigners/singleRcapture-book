@@ -12,5 +12,3 @@ $$
 
 ## Case studies
 
-
-$\bbeta$

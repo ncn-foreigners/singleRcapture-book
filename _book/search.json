@@ -7,34 +7,6 @@
     "text": "\\[\n\\newcommand{\\bbeta}{\\boldsymbol{\\beta}}\n\\]\n\nThis book is about capture-recapture methods solely on a single source. Possible examples are estimation of the population size of\n\ndrunk drivers\nhome violence\nirregular migrants\n\n\n\n\\(\\bbeta\\)"
   },
   {
-    "objectID": "index.html#acknowledgements",
-    "href": "index.html#acknowledgements",
-    "title": "Single-source capture-recapture models using R",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\n\\(\\bbeta\\)"
-  },
-  {
-    "objectID": "intro/intro.html#capture-recapture",
-    "href": "intro/intro.html#capture-recapture",
-    "title": "1  Capture-recapture",
-    "section": "1.2 Capture-recapture",
-    "text": "1.2 Capture-recapture"
-  },
-  {
-    "objectID": "intro/intro.html#case-studies",
-    "href": "intro/intro.html#case-studies",
-    "title": "1  Capture-recapture",
-    "section": "1.3 Case studies",
-    "text": "1.3 Case studies\n\\(\\bbeta\\)"
-  },
-  {
-    "objectID": "conclusions/summary.html",
-    "href": "conclusions/summary.html",
-    "title": "6  Summary",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "intro/intro.html",
     "href": "intro/intro.html",
     "title": "1  Capture-recapture",
@@ -49,39 +21,18 @@
     "text": "1.1 Estimation of population size"
   },
   {
-    "objectID": "ch1/chapter1.html#chaos-model",
-    "href": "ch1/chapter1.html#chaos-model",
-    "title": "2  Introduction",
-    "section": "2.2 Chao’s model",
-    "text": "2.2 Chao’s model"
+    "objectID": "intro/intro.html#capture-recapture",
+    "href": "intro/intro.html#capture-recapture",
+    "title": "1  Capture-recapture",
+    "section": "1.2 Capture-recapture",
+    "text": "1.2 Capture-recapture"
   },
   {
-    "objectID": "ch1/chapter1.html#zero-truncated-models",
-    "href": "ch1/chapter1.html#zero-truncated-models",
-    "title": "2  Introduction",
-    "section": "2.3 Zero-truncated models",
-    "text": "2.3 Zero-truncated models"
-  },
-  {
-    "objectID": "ch1/chapter1.html#zero-truncated-one-inflated-models",
-    "href": "ch1/chapter1.html#zero-truncated-one-inflated-models",
-    "title": "2  Introduction",
-    "section": "2.4 Zero-truncated one-inflated models",
-    "text": "2.4 Zero-truncated one-inflated models"
-  },
-  {
-    "objectID": "ch2/chapter2.html#estimation-of-variance",
-    "href": "ch2/chapter2.html#estimation-of-variance",
-    "title": "3  Population size estimation",
-    "section": "3.2 Estimation of variance",
-    "text": "3.2 Estimation of variance"
-  },
-  {
-    "objectID": "ch2/chapter2.html#conclusions",
-    "href": "ch2/chapter2.html#conclusions",
-    "title": "3  Population size estimation",
-    "section": "3.3 Conclusions",
-    "text": "3.3 Conclusions"
+    "objectID": "intro/intro.html#case-studies",
+    "href": "intro/intro.html#case-studies",
+    "title": "1  Capture-recapture",
+    "section": "1.3 Case studies",
+    "text": "1.3 Case studies"
   },
   {
     "objectID": "ch1/theory.html#chaos-model",
@@ -119,10 +70,129 @@
     "text": "3.3 Conclusions"
   },
   {
-    "objectID": "ch4/case-studies.html#case-studies",
-    "href": "ch4/case-studies.html#case-studies",
+    "objectID": "ch3/package.html",
+    "href": "ch3/package.html",
+    "title": "4  Using R for single-source capure-recapture methods",
+    "section": "",
+    "text": "library(countreg)\n\nLoading required package: MASS\n\n\nWarning: package 'MASS' was built under R version 4.1.2\n\nlibrary(VGAM)\n\nWarning: package 'VGAM' was built under R version 4.1.2\n\n\nLoading required package: stats4\n\n\nLoading required package: splines\n\n\n\nAttaching package: 'VGAM'\n\n\nThe following objects are masked from 'package:countreg':\n\n    dzipois, pzipois, qzipois, rzipois"
+  },
+  {
+    "objectID": "ch3/package.html#functionalities",
+    "href": "ch3/package.html#functionalities",
+    "title": "4  Using R for single-source capure-recapture methods",
+    "section": "4.2 Functionalities",
+    "text": "4.2 Functionalities"
+  },
+  {
+    "objectID": "ch4/case-studies.html#irregular-migration-in-the-netherlands",
+    "href": "ch4/case-studies.html#irregular-migration-in-the-netherlands",
     "title": "5  Case studies",
-    "section": "5.2 Case studies",
-    "text": "5.2 Case studies"
+    "section": "5.2 Irregular migration in the Netherlands",
+    "text": "5.2 Irregular migration in the Netherlands"
+  },
+  {
+    "objectID": "conclusions/summary.html",
+    "href": "conclusions/summary.html",
+    "title": "6  Summary",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Capture-recapture",
+    "section": "",
+    "text": "\\[\n\\newcommand{\\bbeta}{\\boldsymbol{\\beta}}\n\\]"
+  },
+  {
+    "objectID": "intro.html#estimation-of-population-size",
+    "href": "intro.html#estimation-of-population-size",
+    "title": "1  Capture-recapture",
+    "section": "1.1 Estimation of population size",
+    "text": "1.1 Estimation of population size"
+  },
+  {
+    "objectID": "intro.html#capture-recapture",
+    "href": "intro.html#capture-recapture",
+    "title": "1  Capture-recapture",
+    "section": "1.2 Capture-recapture",
+    "text": "1.2 Capture-recapture"
+  },
+  {
+    "objectID": "intro.html#case-studies",
+    "href": "intro.html#case-studies",
+    "title": "1  Capture-recapture",
+    "section": "1.3 Case studies",
+    "text": "1.3 Case studies"
+  },
+  {
+    "objectID": "theory.html#chaos-model",
+    "href": "theory.html#chaos-model",
+    "title": "2  Introduction",
+    "section": "2.2 Chao’s model",
+    "text": "2.2 Chao’s model"
+  },
+  {
+    "objectID": "theory.html#zero-truncated-models",
+    "href": "theory.html#zero-truncated-models",
+    "title": "2  Introduction",
+    "section": "2.3 Zero-truncated models",
+    "text": "2.3 Zero-truncated models"
+  },
+  {
+    "objectID": "theory.html#zero-truncated-one-inflated-models",
+    "href": "theory.html#zero-truncated-one-inflated-models",
+    "title": "2  Introduction",
+    "section": "2.4 Zero-truncated one-inflated models",
+    "text": "2.4 Zero-truncated one-inflated models"
+  },
+  {
+    "objectID": "popsize.html#estimation-of-variance",
+    "href": "popsize.html#estimation-of-variance",
+    "title": "3  Population size estimation",
+    "section": "3.2 Estimation of variance",
+    "text": "3.2 Estimation of variance"
+  },
+  {
+    "objectID": "popsize.html#conclusions",
+    "href": "popsize.html#conclusions",
+    "title": "3  Population size estimation",
+    "section": "3.3 Conclusions",
+    "text": "3.3 Conclusions"
+  },
+  {
+    "objectID": "package.html",
+    "href": "package.html",
+    "title": "4  Using R for single-source capure-recapture methods",
+    "section": "",
+    "text": "library(countreg)\nlibrary(VGAM)\n\nGenerating data from truncated distributions\n\nset.seed(123)\nx <- VGAM::rgaitdpois(n = 100, \n                      lambda.p = 2.5, \n                      truncate = 0)\nbarplot(table(x))"
+  },
+  {
+    "objectID": "package.html#functionalities",
+    "href": "package.html#functionalities",
+    "title": "4  Using R for single-source capure-recapture methods",
+    "section": "4.3 Functionalities",
+    "text": "4.3 Functionalities"
+  },
+  {
+    "objectID": "case-studies.html#irregular-migration-in-the-netherlands",
+    "href": "case-studies.html#irregular-migration-in-the-netherlands",
+    "title": "5  Case studies",
+    "section": "5.2 Irregular migration in the Netherlands",
+    "text": "5.2 Irregular migration in the Netherlands"
+  },
+  {
+    "objectID": "package.html#singlersource-package",
+    "href": "package.html#singlersource-package",
+    "title": "4  Using R for single-source capure-recapture methods",
+    "section": "4.2 singleRsource package",
+    "text": "4.2 singleRsource package"
+  },
+  {
+    "objectID": "case-studies.html#family-violence-data-for-the-netherlands-in-the-year-2009",
+    "href": "case-studies.html#family-violence-data-for-the-netherlands-in-the-year-2009",
+    "title": "5  Case studies",
+    "section": "5.3 Family violence data for the Netherlands in the year 2009",
+    "text": "5.3 Family violence data for the Netherlands in the year 2009\n\nlibrary(VGAM)\nviolence <- rep(x = c(1,2,3,4,5,6), times = c(15169,1957,393,99,28,16))\ntable(violence)\n\nviolence\n    1     2     3     4     5     6 \n15169  1957   393    99    28    16 \n\n\n\nviolence_m1 <- vglm(violence ~ 1,\n                    family  = gaitdpoisson(truncate = 0, i.mix = 1))\nsummary(violence_m1)\n\n\nCall:\nvglm(formula = violence ~ 1, family = gaitdpoisson(truncate = 0, \n    i.mix = 1))\n\nCoefficients: \n              Estimate Std. Error z value Pr(>|z|)    \n(Intercept):1 -0.24543    0.03468  -7.077 1.47e-12 ***\n(Intercept):2  0.34617    0.05971   5.797 6.74e-09 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nNames of linear predictors: loglink(lambda.p), multilogitlink(pstr.mix)\n\nLog-likelihood: -8951.134 on 35322 degrees of freedom\n\nNumber of Fisher scoring iterations: 5 \n\n\n\n1/(1-dpois(0, lambda = exp(0.65956)))\n\n[1] 1.169013"
   }
 ]

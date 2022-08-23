@@ -213,7 +213,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, frame hidden, boxrule=0pt, enhanced, borderline west={3pt}{0pt}{shadecolor}, breakable, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, frame hidden, sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -226,6 +226,10 @@
 \hypertarget{preface}{%
 \chapter*{Preface}\label{preface}}
 \addcontentsline{toc}{chapter}{Preface}
+
+\[
+\newcommand{\bbeta}{\boldsymbol{\beta}}
+\]
 
 This book is about capture-recapture methods solely on a single source.
 Possible examples are estimation of the population size of
@@ -248,27 +252,88 @@ Possible examples are estimation of the population size of
 
 \bookmarksetup{startatroot}
 
-\hypertarget{section}{%
-\chapter{}\label{section}}
+\hypertarget{capture-recapture}{%
+\chapter{Capture-recapture}\label{capture-recapture}}
 
 \[
 \newcommand{\bbeta}{\boldsymbol{\beta}}
 \]
+
+\hypertarget{estimation-of-population-size}{%
+\section{Estimation of population
+size}\label{estimation-of-population-size}}
+
+\hypertarget{capture-recapture-1}{%
+\section{Capture-recapture}\label{capture-recapture-1}}
+
+\hypertarget{case-studies}{%
+\section{Case studies}\label{case-studies}}
+
+\(\bbeta\)
 
 \bookmarksetup{startatroot}
 
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
 
-\hypertarget{estimation-of-population-size}{%
-\section{Estimation of population
-size}\label{estimation-of-population-size}}
+\hypertarget{zeltermans-model}{%
+\section{Zelterman's model}\label{zeltermans-model}}
 
-\hypertarget{capture-recapture}{%
-\section{Capture-recapture}\label{capture-recapture}}
+\hypertarget{chaos-model}{%
+\section{Chao's model}\label{chaos-model}}
 
-\hypertarget{case-studies}{%
-\section{Case studies}\label{case-studies}}
+\hypertarget{zero-truncated-models}{%
+\section{Zero-truncated models}\label{zero-truncated-models}}
+
+\hypertarget{zero-truncated-one-inflated-models}{%
+\section{Zero-truncated one-inflated
+models}\label{zero-truncated-one-inflated-models}}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{population-size-estimation}{%
+\chapter{Population size estimation}\label{population-size-estimation}}
+
+\hypertarget{estimation-of-the-population-size}{%
+\section{Estimation of the population
+size}\label{estimation-of-the-population-size}}
+
+\hypertarget{estimation-of-variance}{%
+\section{Estimation of variance}\label{estimation-of-variance}}
+
+\hypertarget{conclusions}{%
+\section{Conclusions}\label{conclusions}}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{using-r-for-single-source-capure-recapture-methods}{%
+\chapter{Using R for single-source capure-recapture
+methods}\label{using-r-for-single-source-capure-recapture-methods}}
+
+\hypertarget{exising-r-package}{%
+\section{Exising R package}\label{exising-r-package}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(countreg)}
+\FunctionTok{library}\NormalTok{(VGAM)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{functionalities}{%
+\section{Functionalities}\label{functionalities}}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{case-studies-1}{%
+\chapter{Case studies}\label{case-studies-1}}
+
+\hypertarget{introduction-1}{%
+\section{Introduction}\label{introduction-1}}
+
+\hypertarget{irregular-migration-in-the-netherlands}{%
+\section{Irregular migration in the
+Netherlands}\label{irregular-migration-in-the-netherlands}}
 
 \bookmarksetup{startatroot}
 

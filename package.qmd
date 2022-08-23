@@ -1,0 +1,51 @@
+# Using R for single-source capure-recapture methods
+
+## Exising R package
+
+```{r}
+library(countreg)
+library(VGAM)
+```
+
+Generating data from truncated distributions 
+
+Example of zero-truncaed poisson using `rgaitdpois` function
+
+```{r}
+set.seed(123)
+x1 <- VGAM::rgaitdpois(n = 1000, 
+                      lambda.p = 2.5, 
+                      truncate = 0)
+barplot(table(x1))
+```
+
+
+This function allows for generating of one-inflated distributions
+
+```{r}
+set.seed(123)
+x2 <- VGAM::rgaitdpois(n = 1000,
+                       lambda.p = 2.5,
+                       truncate = 0,
+                       i.mix = 1,
+                       pstr.mix = 0.4)
+barplot(table(x2))
+```
+
+```{r}
+m1 <- vglm(x2[which(x2>1)] ~ 1,
+           family  = gaitdpoisson(truncate = 1),
+           crit = "coef")
+summary(m1)
+```
+
+```{r}
+
+```
+
+
+## singleRsource package
+
+## Functionalities
+
+

@@ -1,0 +1,10 @@
+# Estimation
+
+## Zero-truncated regression
+
+### Poisson distribution
+
+### Negative binomial distribution
+
+### Geometric distribution
+

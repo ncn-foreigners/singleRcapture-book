@@ -7,14 +7,15 @@ book:
   date: today
   chapters:
     - index.qmd
-    - intro/intro.qmd
-    - ch1/theory.qmd
-    - ch2/popsize.qmd
-    - ch3/package.qmd    
-    - ch4/case-studies.qmd       
-    - conclusions/summary.qmd
+    - intro.qmd
+    - theory.qmd
+    - popsize.qmd
+    - package.qmd    
+    - case-studies.qmd       
     - references.qmd
-
+  appendices: 
+    - estimation.qmd
+    
 bibliography: references.bib
 
 format:
@@ -25,3 +26,10 @@ format:
 
 editor: source
 
+execute:
+  cache: true
+  echo: true
+  warning: false
+  message: false
+  freeze: false
+  
