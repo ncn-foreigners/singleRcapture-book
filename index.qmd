@@ -1,9 +1,20 @@
+
+
 # Preface {.unnumbered}
 
-This is a Quarto book.
+::: {.hidden}
+$$
+\newcommand{\bbeta}{\boldsymbol{\beta}}
+$$
+:::
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This book is about capture-recapture methods solely on a single source. Possible examples are estimation of the population size of
 
-```{r}
-1 + 1
-```
+* drunk drivers
+* home violence
+* irregular migrants
+
+
+## Acknowledgements
+
+$\bbeta$

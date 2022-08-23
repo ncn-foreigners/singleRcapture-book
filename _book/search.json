@@ -4,27 +4,125 @@
     "href": "index.html",
     "title": "Single-source capture-recapture models using R",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "\\[\n\\newcommand{\\bbeta}{\\boldsymbol{\\beta}}\n\\]\n\nThis book is about capture-recapture methods solely on a single source. Possible examples are estimation of the population size of\n\ndrunk drivers\nhome violence\nirregular migrants\n\n\n\n\\(\\bbeta\\)"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Single-source capture-recapture models using R",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\n\\(\\bbeta\\)"
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "intro/intro.html#capture-recapture",
+    "href": "intro/intro.html#capture-recapture",
+    "title": "1  Capture-recapture",
+    "section": "1.2 Capture-recapture",
+    "text": "1.2 Capture-recapture"
+  },
+  {
+    "objectID": "intro/intro.html#case-studies",
+    "href": "intro/intro.html#case-studies",
+    "title": "1  Capture-recapture",
+    "section": "1.3 Case studies",
+    "text": "1.3 Case studies\n\\(\\bbeta\\)"
+  },
+  {
+    "objectID": "conclusions/summary.html",
+    "href": "conclusions/summary.html",
+    "title": "6  Summary",
     "section": "",
     "text": "1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "intro/intro.html",
+    "href": "intro/intro.html",
+    "title": "1  Capture-recapture",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "\\[\n\\newcommand{\\bbeta}{\\boldsymbol{\\beta}}\n\\]"
+  },
+  {
+    "objectID": "intro/intro.html#estimation-of-population-size",
+    "href": "intro/intro.html#estimation-of-population-size",
+    "title": "1  Capture-recapture",
+    "section": "1.1 Estimation of population size",
+    "text": "1.1 Estimation of population size"
+  },
+  {
+    "objectID": "ch1/chapter1.html#chaos-model",
+    "href": "ch1/chapter1.html#chaos-model",
+    "title": "2  Introduction",
+    "section": "2.2 Chao’s model",
+    "text": "2.2 Chao’s model"
+  },
+  {
+    "objectID": "ch1/chapter1.html#zero-truncated-models",
+    "href": "ch1/chapter1.html#zero-truncated-models",
+    "title": "2  Introduction",
+    "section": "2.3 Zero-truncated models",
+    "text": "2.3 Zero-truncated models"
+  },
+  {
+    "objectID": "ch1/chapter1.html#zero-truncated-one-inflated-models",
+    "href": "ch1/chapter1.html#zero-truncated-one-inflated-models",
+    "title": "2  Introduction",
+    "section": "2.4 Zero-truncated one-inflated models",
+    "text": "2.4 Zero-truncated one-inflated models"
+  },
+  {
+    "objectID": "ch2/chapter2.html#estimation-of-variance",
+    "href": "ch2/chapter2.html#estimation-of-variance",
+    "title": "3  Population size estimation",
+    "section": "3.2 Estimation of variance",
+    "text": "3.2 Estimation of variance"
+  },
+  {
+    "objectID": "ch2/chapter2.html#conclusions",
+    "href": "ch2/chapter2.html#conclusions",
+    "title": "3  Population size estimation",
+    "section": "3.3 Conclusions",
+    "text": "3.3 Conclusions"
+  },
+  {
+    "objectID": "ch1/theory.html#chaos-model",
+    "href": "ch1/theory.html#chaos-model",
+    "title": "2  Introduction",
+    "section": "2.2 Chao’s model",
+    "text": "2.2 Chao’s model"
+  },
+  {
+    "objectID": "ch1/theory.html#zero-truncated-models",
+    "href": "ch1/theory.html#zero-truncated-models",
+    "title": "2  Introduction",
+    "section": "2.3 Zero-truncated models",
+    "text": "2.3 Zero-truncated models"
+  },
+  {
+    "objectID": "ch1/theory.html#zero-truncated-one-inflated-models",
+    "href": "ch1/theory.html#zero-truncated-one-inflated-models",
+    "title": "2  Introduction",
+    "section": "2.4 Zero-truncated one-inflated models",
+    "text": "2.4 Zero-truncated one-inflated models"
+  },
+  {
+    "objectID": "ch2/popsize.html#estimation-of-variance",
+    "href": "ch2/popsize.html#estimation-of-variance",
+    "title": "3  Population size estimation",
+    "section": "3.2 Estimation of variance",
+    "text": "3.2 Estimation of variance"
+  },
+  {
+    "objectID": "ch2/popsize.html#conclusions",
+    "href": "ch2/popsize.html#conclusions",
+    "title": "3  Population size estimation",
+    "section": "3.3 Conclusions",
+    "text": "3.3 Conclusions"
+  },
+  {
+    "objectID": "ch4/case-studies.html#case-studies",
+    "href": "ch4/case-studies.html#case-studies",
+    "title": "5  Case studies",
+    "section": "5.2 Case studies",
+    "text": "5.2 Case studies"
   }
 ]

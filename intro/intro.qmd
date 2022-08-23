@@ -1,0 +1,16 @@
+# Capture-recapture
+
+::: {.hidden}
+$$
+\newcommand{\bbeta}{\boldsymbol{\beta}}
+$$
+:::
+
+## Estimation of population size
+
+## Capture-recapture
+
+## Case studies
+
+
+$\bbeta$

@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Maciej Beręsewicz, Piotr Chlebicki">
-<meta name="dcterms.date" content="2022-08-23">
 
-<title>Single-source capture-recapture models using R</title>
+<title>Single-source capture-recapture models using R - 2&nbsp; Introduction</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,23 +18,24 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./intro/intro.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../ch2/chapter2.html" rel="next">
+<link href="../intro/intro.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -57,7 +56,6 @@ ul.task-list{list-style: none;}
   }
 }</script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -67,7 +65,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Single-source capture-recapture models using R</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -80,7 +78,7 @@ ul.task-list{list-style: none;}
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Single-source capture-recapture models using R</a> 
+      <a href="../">Single-source capture-recapture models using R</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -92,42 +90,32 @@ ul.task-list{list-style: none;}
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Preface</a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro/intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Capture-recapture</span></a>
+  <a href="../intro/intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch1/theory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="../ch1/chapter1.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch2/popsize.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Population size estimation</span></a>
+  <a href="../ch2/chapter2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Population size estimation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch3/package.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">singleRsource package</span></a>
+  <a href="../conclusions/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ch4/case-studies.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Case studies</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./conclusions/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="../references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
     </ul>
@@ -139,10 +127,10 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
-  <ul class="collapse">
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
-  </ul></li>
+  <li><a href="#zeltermans-model" id="toc-zeltermans-model" class="nav-link active" data-scroll-target="#zeltermans-model"> <span class="header-section-number">2.1</span> Zelterman’s model</a></li>
+  <li><a href="#chaos-model" id="toc-chaos-model" class="nav-link" data-scroll-target="#chaos-model"> <span class="header-section-number">2.2</span> Chao’s model</a></li>
+  <li><a href="#zero-truncated-models" id="toc-zero-truncated-models" class="nav-link" data-scroll-target="#zero-truncated-models"> <span class="header-section-number">2.3</span> Zero-truncated models</a></li>
+  <li><a href="#zero-truncated-one-inflated-models" id="toc-zero-truncated-one-inflated-models" class="nav-link" data-scroll-target="#zero-truncated-one-inflated-models"> <span class="header-section-number">2.4</span> Zero-truncated one-inflated models</a></li>
   </ul>
 </nav>
     </div>
@@ -151,51 +139,33 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Single-source capture-recapture models using R</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Maciej Beręsewicz, Piotr Chlebicki </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 23, 2022</p>
-    </div>
-  </div>
     
   </div>
   
 
 </header>
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<div class="hidden">
-<p><span class="math display">\[
-\newcommand{\bbeta}{\boldsymbol{\beta}}
-\]</span></p>
-</div>
-<p>This book is about capture-recapture methods solely on a single source. Possible examples are estimation of the population size of</p>
-<ul>
-<li>drunk drivers</li>
-<li>home violence</li>
-<li>irregular migrants</li>
-</ul>
-<section id="acknowledgements" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
-<p><span class="math inline">\(\bbeta\)</span></p>
-
-
+<section id="zeltermans-model" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="zeltermans-model"><span class="header-section-number">2.1</span> Zelterman’s model</h2>
 </section>
+<section id="chaos-model" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="chaos-model"><span class="header-section-number">2.2</span> Chao’s model</h2>
+</section>
+<section id="zero-truncated-models" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="zero-truncated-models"><span class="header-section-number">2.3</span> Zero-truncated models</h2>
+</section>
+<section id="zero-truncated-one-inflated-models" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="zero-truncated-one-inflated-models"><span class="header-section-number">2.4</span> Zero-truncated one-inflated models</h2>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -298,10 +268,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../intro/intro.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro/intro.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Capture-recapture</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../ch2/chapter2.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Population size estimation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

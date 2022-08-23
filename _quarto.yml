@@ -4,11 +4,15 @@ project:
 book:
   title: "Single-source capture-recapture models using R"
   author: "Maciej Beręsewicz, Piotr Chlebicki"
-  date: "8/12/2022"
+  date: today
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - intro/intro.qmd
+    - ch1/theory.qmd
+    - ch2/popsize.qmd
+    - ch3/package.qmd    
+    - ch4/case-studies.qmd       
+    - conclusions/summary.qmd
     - references.qmd
 
 bibliography: references.bib
