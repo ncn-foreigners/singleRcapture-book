@@ -7,6 +7,13 @@ library(countreg)
 library(VGAM)
 ```
 
+### countreg
+
+
+
+### VGAM 
+
+
 Generating data from truncated distributions 
 
 Example of zero-truncaed poisson using `rgaitdpois` function
@@ -28,15 +35,16 @@ x2 <- VGAM::rgaitdpois(n = 1000,
                        lambda.p = 2.5,
                        truncate = 0,
                        i.mix = 1,
-                       pstr.mix = 0.4)
+                       pstr.mix = 0.2)
 barplot(table(x2))
 ```
 
 ```{r}
-m1 <- vglm(x2[which(x2>1)] ~ 1,
-           family  = gaitdpoisson(truncate = 1),
-           crit = "coef")
-summary(m1)
+m1 <- vglm(x2 ~ 1,
+           family  = gaitdpoisson(truncate = 0, i.mix = 1),
+           trace = TRUE)
+
+fitted(m1, type = "pstr.mix")[1,1]
 ```
 
 ```{r}
