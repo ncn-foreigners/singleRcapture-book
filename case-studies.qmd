@@ -18,7 +18,4 @@ violence_m1 <- vglm(violence ~ 1,
 summary(violence_m1)
 ```
 
-```{r}
-1/(1-dpois(0, lambda = exp(0.65956)))
-```
 
