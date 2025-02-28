@@ -1,0 +1,7 @@
+# One-inflated models
+
+## Various models for one-inflation
+
+## Theory and introduction
+
+## Usage of covariates

@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "zero-truncated.html",
+    "href": "zero-truncated.html",
+    "title": "2  Zero-truncated distributions",
+    "section": "",
+    "text": "2.1 Introduction to distributions (Poisson, Geo, NB, R examples)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Zero-truncated distributions</span>"
+    ]
+  },
+  {
+    "objectID": "zero-truncated.html#introduction-to-distributions-poisson-geo-nb-r-examples",
+    "href": "zero-truncated.html#introduction-to-distributions-poisson-geo-nb-r-examples",
+    "title": "2  Zero-truncated distributions",
+    "section": "",
+    "text": "Content for this subsection…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Zero-truncated distributions</span>"
+    ]
+  },
+  {
+    "objectID": "zero-truncated.html#truncated-distributions-formulas-data",
+    "href": "zero-truncated.html#truncated-distributions-formulas-data",
+    "title": "2  Zero-truncated distributions",
+    "section": "2.2 Truncated distributions (formulas, data)",
+    "text": "2.2 Truncated distributions (formulas, data)\n\nContent for this subsection…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Zero-truncated distributions</span>"
+    ]
+  },
+  {
+    "objectID": "zero-truncated.html#regression-with-current-r-packages-such-as-countreg-vgam-including-truncated-models",
+    "href": "zero-truncated.html#regression-with-current-r-packages-such-as-countreg-vgam-including-truncated-models",
+    "title": "2  Zero-truncated distributions",
+    "section": "2.3 Regression (with current R packages such as countreg, VGAM, including truncated models)",
+    "text": "2.3 Regression (with current R packages such as countreg, VGAM, including truncated models)\n\nContent for this subsection…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Zero-truncated distributions</span>"
+    ]
+  },
+  {
+    "objectID": "zero-truncated.html#example-with-data-from-r-packages-e.g.-migration-parameter-interpretations-population-estimation",
+    "href": "zero-truncated.html#example-with-data-from-r-packages-e.g.-migration-parameter-interpretations-population-estimation",
+    "title": "2  Zero-truncated distributions",
+    "section": "2.4 Example with data from R packages (e.g., migration), parameter interpretations, population estimation",
+    "text": "2.4 Example with data from R packages (e.g., migration), parameter interpretations, population estimation\n\nContent for this subsection…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Zero-truncated distributions</span>"
+    ]
+  },
+  {
+    "objectID": "zero-truncated.html#chao-and-zeltermann",
+    "href": "zero-truncated.html#chao-and-zeltermann",
+    "title": "2  Zero-truncated distributions",
+    "section": "2.5 Chao and Zeltermann",
+    "text": "2.5 Chao and Zeltermann\n\nContent for this subsection…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Zero-truncated distributions</span>"
+    ]
+  },
+  {
+    "objectID": "case-studies.html",
+    "href": "case-studies.html",
+    "title": "6  Case studies",
+    "section": "",
+    "text": "6.1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Case studies</span>"
+    ]
+  },
+  {
+    "objectID": "case-studies.html#irregular-migration-in-the-netherlands",
+    "href": "case-studies.html#irregular-migration-in-the-netherlands",
+    "title": "6  Case studies",
+    "section": "6.2 Irregular migration in the Netherlands",
+    "text": "6.2 Irregular migration in the Netherlands",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Case studies</span>"
+    ]
+  },
+  {
+    "objectID": "case-studies.html#family-violence-data-for-the-netherlands-in-the-year-2009",
+    "href": "case-studies.html#family-violence-data-for-the-netherlands-in-the-year-2009",
+    "title": "6  Case studies",
+    "section": "6.3 Family violence data for the Netherlands in the year 2009",
+    "text": "6.3 Family violence data for the Netherlands in the year 2009\n\nlibrary(VGAM)\nviolence &lt;- rep(x = c(1,2,3,4,5,6), times = c(15169,1957,393,99,28,16))\ntable(violence)\n\nviolence\n    1     2     3     4     5     6 \n15169  1957   393    99    28    16 \n\n\n\nviolence_m1 &lt;- vglm(violence ~ 1,\n                    family  = gaitdpoisson(truncate = 0, i.mix = 1))\nsummary(violence_m1)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Case studies</span>"
+    ]
+  },
+  {
+    "objectID": "estimation.html",
+    "href": "estimation.html",
+    "title": "Appendix A — Estimation",
+    "section": "",
+    "text": "A.1 Zero-truncated regression",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Estimation</span>"
+    ]
+  },
+  {
+    "objectID": "estimation.html#zero-truncated-regression",
+    "href": "estimation.html#zero-truncated-regression",
+    "title": "Appendix A — Estimation",
+    "section": "",
+    "text": "A.1.1 Poisson distribution\n\n\nA.1.2 Negative binomial distribution\n\n\nA.1.3 Geometric distribution",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Estimation</span>"
+    ]
+  }
+]

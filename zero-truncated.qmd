@@ -1,0 +1,18 @@
+# Zero-truncated distributions
+
+## Introduction to distributions (Poisson, Geo, NB, R examples)
+- Content for this subsection...
+
+## Truncated distributions (formulas, data)
+- Content for this subsection...
+
+## Regression (with current R packages such as countreg, VGAM, including truncated models)
+- Content for this subsection...
+
+## Example with data from R packages (e.g., migration), parameter interpretations, population estimation
+- Content for this subsection...
+
+## Chao and Zeltermann
+- Content for this subsection...
+
+

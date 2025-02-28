@@ -1,7 +1,0 @@
-# Population size estimation
-
-## Estimation of the population size
-
-## Estimation of variance
-
-## Conclusions

@@ -1,30 +1,50 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Single-source capture-recapture models using R"
   author: "Maciej Beręsewicz, Piotr Chlebicki"
   date: today
+  sidebar:
+    background: light
+  page-navigation: true
+  search: true
+  downloads: [pdf, epub]
+  repo-url: https://github.com/ncn-foreigners/singleRcapture-book
+  repo-branch: main
+  repo-actions: [issue]
+  site-url: https://ncn-foreigners.github.io/singleRcapture-book/
+
   chapters:
     - index.qmd
     - intro.qmd
-    - theory.qmd
-    - popsize.qmd
-    - package.qmd    
+    - zero-truncated.qmd
+    - one-inflated.qmd
+    - variance-estimation.qmd
+    - functionalities.qmd    
     - case-studies.qmd       
     - references.qmd
   appendices: 
     - estimation.qmd
-    
+
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    number-sections: true   
   pdf:
     documentclass: scrreprt
+    number-sections: true
+    toc: true
+    colorlinks: true
+    papersize: letter
+    geometry:
+      - margin=1in
 
-editor: source
+
+editor: visual
 
 execute:
   cache: true
@@ -32,4 +52,3 @@ execute:
   warning: false
   message: false
   freeze: false
-  
